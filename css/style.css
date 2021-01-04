@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Muli', sans-serif;
+  scroll-behavior: smooth;
+}
+.hero-section {
+  min-height: 70vh;
+  background-color: #187383;
+}
+.transparent {
+  background: transparent;
+}
+.ml-auto {
+  margin-left: auto !important;
+}
+.brand {
+  font-size: 2rem !important;
+}
+
+.r-text {
+  font-size: 1.3rem;
+}
+ul li a {
+  font-size: 1rem;
+  color: #fff !important;
+}
+
+.description {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.description p {
+  font-size: 1.3rem;
+  color: rgb(255, 253, 253);
+}
+
+.button {
+  border: 1px solid #fff;
+  outline: none;
+  padding: 15px 30px;
+  background: transparent;
+  color: #fff;
+}
+
+/* article */
+.article {
+  padding-top: 70px;
+  min-height: 50vh;
+}
+.card {
+  margin: 10px 0 20px 0 !important;
+  border-radius: 10px !important;
+}
+.card img {
+  width: 350px;
+}
+
+.article span {
+  color: #999;
+  font-size: 1.1rem;
+}
+.article p {
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+/* article */
+
+/* footer */
+.footer {
+  margin-top: 60px;
+  background-color: #187383;
+  width: 100%;
+}
+.footer ul {
+  padding: 1.6rem;
+  margin-top: 10px;
+}
+.footer ul li {
+  margin: 10px;
+}
+/* footer */
